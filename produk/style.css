@@ -1,0 +1,95 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #585a61;
+  margin: 0px;
+}
+#header {
+  margin: 10px 0;
+}
+.judul {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #47536e;
+  margin-bottom: .5rem;
+}
+.subjudul {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.kotak-konten {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+.mykonten {
+  background: #333;
+  color: #fff;
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+  .konten {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 2px 0;
+    border-bottom: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #585a61;
+    text-align: center;
+  }
+.beli{
+  margin: 20px 5px;
+}
+.harga {
+    width: 100%;
+    margin: 7px 0;
+    border-collapse: collapse;
+    border: 0;
+  }
+.harga, td {
+    padding: 8px;
+    border: 0;
+    border-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: #585a61;
+    text-align: center;
+  }
+  .detail {
+    margin: 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+@media screen and (width: 411px){
+  .subtitle{padding: 0 10px}
+  .mykonten{width: 390px;}
+}
+@media screen and (width: 360px){
+  .mykonten{width: 340px;}
+}
+@media screen and (width: 320px){
+  .mykonten{width: 300px;}
+}
+@media screen and (width: 375px){
+  .mykonten{width: 355px;}
+}
+@media screen and (width: 414px){
+  .mykonten{width: 390px;}
+}
